@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&display=swap" rel="stylesheet">
+    <title>Clinica Revitar</title>
+    <meta property="og:title" content="Clinica Revitar">    
+    <meta property="og:image" content="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/clinicarevitarlogo.png">
+    <meta property="og:url" content="https://felipesoart.github.io/ClinicaRevitar/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/clinicarevitarlogo.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Bentham', serif;
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background-color: #e8d9dd;
+        }
+
+        .imagemlogo{
+            background-image: url('https://raw.githubusercontent.com/ClinicaRevitar/2024/main/certificado.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 395px;
+                    margin-top: 20px;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 45vh;
+          
+        }
+
+        .container {
+
+            margin-top: 20px;
+            /* Adicionado para espaçamento Bentham regular*/
+        }
+
+        .button {
+            display: block;
+            width: 870px;
+            padding: 10px 20px;
+            background-color: #d8a4b1;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .video {
+            display: block;
+            width: 450px;
+            padding: 10px 20px;
+            background-color: #01725e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Ajustes para telas maiores */
+        @media screen and (min-width: 412px) {
+
+            .texto {
+                font-size: 200%;
+                margin: 10px !important;
+            }
+
+            .texto p {
+                text-align: justify;
+            }
+
+            .imagem {
+                flex: 1;
+                margin: 40px;
+                width: 80% !important;
+                /* Defina aqui a largura desejada para a imagem */
+                height: auto;
+                border-radius: 50px !important;
+            }
+
+            .container,
+            .container-md,
+            .container-sm {
+                max-width: 890px;
+            }
+
+
+            .divCell {
+
+                padding: 20px;
+            }
+
+        }
+
+        /* Ajustes para telas maiores */
+        @media screen and (min-width: 360px) {
+
+            .texto {
+                font-size: 150%;
+                margin: 10px !important;
+            }
+
+            .texto p {
+                text-align: justify;
+            }
+
+            .imagem {
+                flex: 1;
+                margin: 40px;
+                width: 80% !important;
+                /* Defina aqui a largura desejada para a imagem */
+                height: auto;
+                border-radius: 50px !important;
+            }
+
+            .container,
+            .container-md,
+            .container-sm {
+                max-width: 890px;
+            }
+
+
+            .divCell {
+
+                padding: 15px;
+            }
+
+        }
+
+        /* Posicionamento das imagens */
+        .img1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+
+        .img2 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            pointer-events: none;
+        }
+
+        .container2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .texto {
+            flex: 1;
+            margin: 10px;
+            font-size: 100%;
+        }
+
+        .imagem {
+            flex: 1;
+            padding: 5px;
+            width: 40%;
+            /* Defina aqui a largura desejada para a imagem */
+            height: auto;
+            border-radius: 40px;
+        }
+
+        .profile-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            display: block;
+            width: 870px;
+            padding: 10px 20px;
+            background-color: #c07e8e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+        <!-- <img src="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/top1.png" alt="Imagem"
+            class="img1" /> -->
+        <div class="imagemlogo"></div>
+
+        <div class="conteudo">
+            <div class="container mt-5 ">
+
+                <div class="row align-items-center">
+                    <a href="https://felipesoart.github.io/ClinicaRevitar/quemSomos.html" class="button"
+                        target="_blank">Quem Somos</a>
+                    <a href="https://felipesoart.github.io/ClinicaRevitar/servicos.html" class="button"
+                        target="_blank">Serviços</a>
+                    <a href="https://api.whatsapp.com/send?phone=558899205538&text=Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os"
+                        class="button" target="_blank">WhatsApp</a>
+                    <a href="https://www.google.com/maps/place/2%C2%B053'42.5%22S+40%C2%B026'41.3%22W/@-2.895128,-40.4454471,214m/data=!3m2!1e3!4b1!4m13!1m8!3m7!1s0x7e98660f56abc49:0xca971859ed748a48!2sJijoca+de+Jericoacoara+-+CE!3b1!8m2!3d-2.8993062!4d-40.4509652!16s%2Fm%2F05h5nlj!3m3!8m2!3d-2.895128!4d-40.444802?entry=ttu"
+                        target="_blank" class="button">
+                        Google Maps
+                    </a>
+                    <!-- <video src="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/video.mp4"
+                    autoplay controls class="video"></video> -->
+                </div>
+            </div>
+        </div>
+        <!-- <img src="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/bm1.png" alt="Imagem"
+            class="img2" /> -->
+
+        <div id="cb-row--footer-mobile-main" data-row-id="main" data-show-on="mobile"
+            style="background-color: #d8a4b1; color: #fff;">
+            <div>
+                <div class="container">
+                    <div data-section="hfg_footer_layout_main">
+                        <div class="row align-items-center ">
+
+                            <div class="col-lg-6 imagem">
+                                <h1><strong>Clínica Revitar</strong>
+                                    <p class="subP" style="font-size: 25px;">Saúde e Estética.</p>
+                                </h1>
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <h2>Contato</h2>
+                                <a href="mailto:administrador@clinicarevitar.com" target="_blank" style="font-size: 19px;">
+                                    administrador@clinicarevitar.com
+                                </a><br /><span>Cell: <a
+                                        href="https://api.whatsapp.com/send?phone=558899205538&text=Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os"
+                                        target="_blank" style="font-family: Arial, Helvetica, sans-serif;">(88)
+                                        9.9920-5538</a></span>
+                            </div>
+                        </div>
+
+                        <div class="hfg-slot c-left"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <script>
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
