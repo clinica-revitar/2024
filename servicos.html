@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&display=swap" rel="stylesheet">
+    <title>Clinica Revitar - Serviços</title>
+	<meta property="og:title" content="Clinica Revitar">    
+    <meta property="og:image" content="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/clinicarevitarlogo.png">
+    <meta property="og:url" content="https://felipesoart.github.io/ClinicaRevitar/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/clinicarevitarlogo.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Bentham', serif;
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background: linear-gradient(90deg, #cacac9, #ffffff,#cacac9);
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;           
+            background-image: url('https://raw.githubusercontent.com/ClinicaRevitar/2024/main/logoCentral.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .container {
+           
+            margin-top: 20px;
+            /* Adicionado para espaçamento */
+        }
+
+        .button {
+            display: block;
+            width: 450px;
+            padding: 10px 20px;
+            background-color: #01725e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .video {
+            display: block;
+            width: 450px;
+            padding: 10px 20px;
+            background-color: #01725e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Ajustes para telas maiores */
+        @media screen and (min-width: 412px) {
+          			
+            .texto {
+				font-size: 200%;
+				   margin: 10px !important;
+            }
+
+            .texto p{
+				text-align: justify;
+            }
+
+            .imagem {
+                flex: 1;
+                margin: 40px;        
+                width: 80% !important; /* Defina aqui a largura desejada para a imagem */
+                height: auto;
+                border-radius: 50px !important;
+            }
+			
+			    .container, .container-md, .container-sm {
+						max-width: 890px;
+					}
+				
+
+			.divCell {
+				
+				padding: 20px;
+			}
+
+        }
+		
+		/* Ajustes para telas maiores */
+        @media screen and (min-width: 360px) {
+          			
+            .texto {
+				font-size: 150%;
+				   margin: 10px !important;
+            }
+
+            .texto p{
+				text-align: justify;
+            }
+
+            .imagem {
+                flex: 1;
+                margin: 40px;        
+                width: 80% !important; /* Defina aqui a largura desejada para a imagem */
+                height: auto;
+                border-radius: 50px !important;
+            }
+			
+			    .container, .container-md, .container-sm {
+						max-width: 890px;
+					}
+				
+
+			.divCell {
+				
+				padding: 15px;
+			}
+
+        }
+
+        /* Posicionamento das imagens */
+        .img1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+
+        .img2 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            pointer-events: none;
+        }
+
+         .container2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+		
+        .texto {
+            flex: 1;
+            margin: 10px;
+            font-size: 100%;
+        }
+
+        .imagem {
+            flex: 1;
+            padding: 5px;        
+            width: 40%; /* Defina aqui a largura desejada para a imagem */
+            height: auto;
+            border-radius: 40px;
+        }
+       
+        .profile-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <form>
+       
+        <div class="conteudo">
+            <div class="container mt-5 ">                
+                
+				<div class="row align-items-center">
+					<div class="col-lg-12 ">
+						<h1 style="text-align:center"><strong>Serviços</strong></h1><br>
+					</div>
+					<div class="col-lg-12">
+						<h2>
+							<strong>Limpeza de Pele</strong><br>   
+						</h2>
+						<ul>
+							<li>
+								<strong>Basic: </strong> higienização, esfoliação, sucção de cravos, hidratação e tonificação.</li>
+							<li>
+								<strong>Plus: </strong> higienização, esfoliação, extração de cravos e impurezas, hidratação, tonificação,
+                                 suavização e proteção UV.</li>
+                            <li>
+                            <strong>Premium: </strong> Plus + Máscara firmadora, hidratante ou clareadora.</li>
+						</ul>
+						<h2>
+							<strong>Microagulhamento Facial</strong><br>   
+						</h2>
+						<ul>
+							<li>Avaliação necessária.</li>
+						</ul>
+						<h2>
+							<strong>Tratamento para Acne</strong><br>   
+						</h2>
+						<ul>
+							<li>Protocolo de tratamento e rotina personalizada.</li>
+						</ul>
+					</div>	
+					<div class="col-lg-12 imagem" style="text-align: center">
+						<img src="https://raw.githubusercontent.com/ClinicaRevitar/2024/main/servicos.jpeg" alt="servicos" class="profile-img">
+					</div>			
+				</div>
+               
+            </div>
+        </div>                
+        
+    </form>
+
+    <script>
+        
+    </script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
